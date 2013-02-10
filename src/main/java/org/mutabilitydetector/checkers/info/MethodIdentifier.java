@@ -20,7 +20,7 @@ package org.mutabilitydetector.checkers.info;
 import static org.mutabilitydetector.locations.Dotted.fromSlashed;
 
 import javax.annotation.Nonnull;
-import javax.annotation.concurrent.Immutable;
+import checkers.igj.quals.Immutable;
 
 import org.mutabilitydetector.locations.Dotted;
 import org.mutabilitydetector.locations.Slashed;

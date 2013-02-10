@@ -18,7 +18,7 @@
 package org.mutabilitydetector.locations;
 
 import javax.annotation.Nonnull;
-import javax.annotation.concurrent.Immutable;
+import checkers.igj.quals.Immutable;
 
 import com.google.common.base.Function;
 

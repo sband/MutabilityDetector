@@ -16,7 +16,7 @@
  */
 package org.mutabilitydetector.checkers;
 
-import javax.annotation.concurrent.Immutable;
+import checkers.igj.quals.Immutable;
 
 import org.mutabilitydetector.checkers.CheckerRunner.ExceptionPolicy;
 

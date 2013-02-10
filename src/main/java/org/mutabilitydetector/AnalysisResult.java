@@ -26,7 +26,7 @@ import java.util.Collection;
 import java.util.Collections;
 
 import javax.annotation.Nonnull;
-import javax.annotation.concurrent.Immutable;
+import checkers.igj.quals.Immutable;
 
 import org.mutabilitydetector.locations.Dotted;
 

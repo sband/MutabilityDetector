@@ -21,7 +21,7 @@ import static com.google.common.collect.Lists.newArrayList;
 import java.util.Collection;
 import java.util.Collections;
 
-import javax.annotation.concurrent.Immutable;
+import checkers.igj.quals.Immutable;
 
 import org.mutabilitydetector.IsImmutable;
 import org.mutabilitydetector.MutableReasonDetail;

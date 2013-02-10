@@ -18,6 +18,9 @@ package org.mutabilitydetector.benchmarks.mutabletofield.jdktypefields;
 
 import java.util.List;
 
+import checkers.igj.quals.Immutable;
+
+@Immutable
 public final class HasCollectionField {
     private final List<String> myStrings;
 

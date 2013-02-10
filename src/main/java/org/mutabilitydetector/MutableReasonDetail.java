@@ -21,7 +21,7 @@ import static java.lang.Integer.toHexString;
 import static java.lang.String.format;
 
 import javax.annotation.Nonnull;
-import javax.annotation.concurrent.Immutable;
+import checkers.igj.quals.Immutable;
 
 import org.mutabilitydetector.locations.CodeLocation;
 

@@ -23,7 +23,7 @@ import static org.mutabilitydetector.IsImmutable.NOT_IMMUTABLE;
 
 import java.util.Map;
 
-import javax.annotation.concurrent.Immutable;
+import checkers.igj.quals.Immutable;
 
 import org.mutabilitydetector.IsImmutable;
 

@@ -16,7 +16,7 @@
  */
 package org.mutabilitydetector;
 
-import javax.annotation.concurrent.Immutable;
+import checkers.igj.quals.Immutable;
 
 
 public interface AnalysisErrorReporter {

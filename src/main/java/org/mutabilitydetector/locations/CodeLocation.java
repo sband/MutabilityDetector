@@ -17,7 +17,7 @@
 
 package org.mutabilitydetector.locations;
 
-import javax.annotation.concurrent.Immutable;
+import checkers.igj.quals.Immutable;
 
 public interface CodeLocation<T extends CodeLocation<T>> extends Comparable<T> {
 

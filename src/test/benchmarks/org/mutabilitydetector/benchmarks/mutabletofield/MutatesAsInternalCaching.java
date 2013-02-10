@@ -16,7 +16,7 @@
  */
 package org.mutabilitydetector.benchmarks.mutabletofield;
 
-import javax.annotation.concurrent.Immutable;
+import checkers.igj.quals.Immutable;
 
 @Immutable
 public final class MutatesAsInternalCaching {

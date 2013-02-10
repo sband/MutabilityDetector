@@ -16,6 +16,9 @@
  */
 package org.mutabilitydetector.benchmarks.mutabletofield.jdktypefields;
 
+import checkers.igj.quals.Immutable;
+
+@Immutable
 public final class HasAStringField {
     private final String stringField;
 

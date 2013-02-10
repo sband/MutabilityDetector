@@ -26,7 +26,7 @@ import java.util.Map;
 import java.util.Set;
 
 import javax.annotation.Nonnull;
-import javax.annotation.concurrent.Immutable;
+import checkers.igj.quals.Immutable;
 import javax.annotation.concurrent.NotThreadSafe;
 
 import org.mutabilitydetector.checkers.CheckerRunner.ExceptionPolicy;

@@ -17,7 +17,7 @@
 package org.mutabilitydetector.locations;
 
 import javax.annotation.Nonnull;
-import javax.annotation.concurrent.Immutable;
+import checkers.igj.quals.Immutable;
 
 @Immutable
 public final class FieldLocation implements CodeLocation<FieldLocation> {

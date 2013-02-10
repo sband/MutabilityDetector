@@ -16,9 +16,9 @@
  */
 package org.mutabilitydetector.benchmarks;
 
-import javax.annotation.concurrent.Immutable;
+import checkers.igj.quals.Immutable;
 
-@Immutable
+@Immutable 
 public final class ImmutableExample {
 
     private final MutableFieldInterface name;
