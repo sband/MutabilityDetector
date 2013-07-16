@@ -278,7 +278,7 @@
     <dependency>
       <groupId>org.ow2.asm</groupId>
       <artifactId>asm-debug-all</artifactId>
-      <version>4.0</version>
+      <version>5.0_ALPHA</version>
       <scope>compile</scope>
     </dependency>
 

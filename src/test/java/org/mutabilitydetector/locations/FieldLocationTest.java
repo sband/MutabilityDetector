@@ -39,15 +39,13 @@ public class FieldLocationTest {
     @Test
     public void comparesToOtherFieldLocationsSortingAlphabeticallyByOwningTypeNameThenFieldName() throws Exception {
         FieldLocation comparing = fieldLocation("myFieldName", fromInternalName("a/b/MyClass"));
-        assertThat(comparing.compareTo(fieldLocation("myFieldNamd", fromInternalName("a/b/MyClass"))),
-                is(greaterThan(0)));
-        assertThat(comparing.compareTo(fieldLocation("myFieldName", fromInternalName("a/b/MyClass"))), is(equalTo(0)));
-        assertThat(comparing.compareTo(fieldLocation("myFieldNamf", fromInternalName("a/b/MyClass"))), is(lessThan(0)));
+        assertThat(comparing.compareTo(fieldLocation("myFieldNamd", fromInternalName("a/b/MyClass"))), greaterThan(0));
+        assertThat(comparing.compareTo(fieldLocation("myFieldName", fromInternalName("a/b/MyClass"))), equalTo(0));
+        assertThat(comparing.compareTo(fieldLocation("myFieldNamf", fromInternalName("a/b/MyClass"))), lessThan(0));
 
-        assertThat(comparing.compareTo(fieldLocation("myFieldName", fromInternalName("a/b/MyClasr"))),
-                is(greaterThan(0)));
-        assertThat(comparing.compareTo(fieldLocation("myFieldName", fromInternalName("a/b/MyClass"))), is(equalTo(0)));
-        assertThat(comparing.compareTo(fieldLocation("myFieldName", fromInternalName("a/b/MyClast"))), is(lessThan(0)));
+        assertThat(comparing.compareTo(fieldLocation("myFieldName", fromInternalName("a/b/MyClasr"))), greaterThan(0));
+        assertThat(comparing.compareTo(fieldLocation("myFieldName", fromInternalName("a/b/MyClass"))), equalTo(0));
+        assertThat(comparing.compareTo(fieldLocation("myFieldName", fromInternalName("a/b/MyClast"))), lessThan(0));
     }
 
     @Test
